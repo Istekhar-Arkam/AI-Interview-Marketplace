@@ -16,11 +16,11 @@ function Header() {
       hello
       <div className="flex item-center gap-3">
         <Show when="signed-out">
-          <SignInButton mode="modal">
+          <SignInButton>
             <Button variant="ghost">Sign In</Button>
           </SignInButton>
-          <SignUpButton mode="modal">
-            <Button variant="gold">sign Up</Button>
+          <SignUpButton>
+            <Button variant="gold">Get started</Button>
           </SignUpButton>
         </Show>
         <Show when="signed-in">
