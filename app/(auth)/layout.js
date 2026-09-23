@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function AuthLayout({children}) {
-  return (
-    <div className='flex justify-center pt-33'>{children}</div>
-  )
+function AuthLayout({ children }) {
+  return <div className="flex justify-center pt-33">{children}</div>;
 }
 
-export default AuthLayout
+export default AuthLayout;
